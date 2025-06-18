@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { removeFromPastes } from "../redux/pasteSlice";
 import { toast } from "react-toastify";
-import { FaEye } from "react-icons/fa";
+
 
 
 
@@ -123,4 +123,4 @@ const Paste = () => {
     )
 }
 
-export default Paste
+export default Paste;
