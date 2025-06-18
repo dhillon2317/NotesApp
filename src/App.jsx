@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Paste from './components/paste';
+import Paste from './components/paste.jsx';
 import ViewPaste from './components/ViewPaste';
 
 const router = createBrowserRouter([
@@ -40,7 +40,7 @@ function App() {
     <div>
       <RouterProvider router={router} />
       <h1></h1>
-      </div>
+    </div>
 
   )
 }
