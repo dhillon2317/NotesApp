@@ -2,10 +2,10 @@
 import { configureStore } from "@reduxjs/toolkit";
 import pasteReducer from "./redux/pasteSlice";
 
-const store = configureStore({
+const Store = configureStore({
   reducer: {
     paste: pasteReducer,
   },
 });
 
-export default store;
+export default Store;
