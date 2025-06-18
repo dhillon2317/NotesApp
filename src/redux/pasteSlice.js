@@ -25,7 +25,8 @@ export const pasteSlice = createSlice({
         toast.success("Paste updated");
       }
     },
-    ResetAllPastes: (state, action) => {},
+    // ResetAllPastes: (state, action) => {}
+    
     removeFromPastes: (state, action) => {
       const pasteId = action.payload;
 
